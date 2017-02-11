@@ -9,7 +9,7 @@ module = "clothes100"
 name = "clothes100"
 
 main_apps = [
-    "base", "oauth", "scope", "user"
+    "base", "oauth", "scope", "user","purchase"
 ]
 
 # oauth_apps = [
