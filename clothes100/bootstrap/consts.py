@@ -32,3 +32,9 @@ const.PAY_TYPE = [
     ("wxpay","wxpay",u"微信支付"),
     ("card","card",u"刷卡")
 ]
+
+const.CUSTOMER_TYPE = [
+    ("old_friend","old_friend",u"老客户"),
+    ("common_friend","common_friend",u"普通用户"),
+    ("vip_friend","vip_friend",u"vip用户")
+]

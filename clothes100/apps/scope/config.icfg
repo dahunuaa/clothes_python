@@ -2,20 +2,20 @@
 model:'scope'
 version:'0.0.1'
 scope_roles:['superuser','scope','normal',
-             'purchase',
-             'purchase_admin']
+             'purchase','sales','customer','vender'
+             'purchase_admin','sales_admin','customer_admin','vender_admin']
 
 init_scope:{
 "normal":{
         "name":"normal",
-        "roles":['user','purchase']
+        "roles":['user','purchase','sales','customer','vender']
         },
 "backend":{
         "name":"backend",
-        "roles":['user','purchase','purchase_admin']
+        "roles":['user','purchase','purchase_admin','sales','sales_admin','customer','customer_admin','vender','vender_admin']
         },
 "admin":{
         "name":"admin",
-        "roles":['superuser','user','user_admin','purchase','purchase_admin']
+        "roles":['superuser','user','user_admin','purchase','purchase_admin','sales','sales_admin','customer','customer_admin','vender','vender_admin']
         }
   }
